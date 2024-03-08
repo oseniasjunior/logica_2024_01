@@ -51,4 +51,55 @@
 
    ![Alt ou título da imagem](/images/tabelaVerdade02.png)
 
+   * Representação em código do **e**
+   ```python
+   def operacao_e(A, B):
+       return A and B
+
+   # Testando a função com todos os valores possíveis da tabela verdade
+   print(operacao_e(True, True))   # Deve retornar True
+   print(operacao_e(True, False))  # Deve retornar False
+   print(operacao_e(False, True))  # Deve retornar False
+   print(operacao_e(False, False)) # Deve retornar False
+   ```
+
+   * Representação em código do **ou**
+   ```python
+      def operacao_ou(A, B):
+          return A or B
+
+      # Testando a função com todos os valores possíveis da tabela verdade
+      print(operacao_ou(True, True))   # Deve retornar True
+      print(operacao_ou(True, False))  # Deve retornar True
+      print(operacao_ou(False, True))  # Deve retornar True
+      print(operacao_ou(False, False)) # Deve retornar False
+   ```
+
+   * Representação em código do **se então**
+   ```python
+      def se_entao(A, B):
+          return not A or B
+
+      # Testando a função com todos os valores possíveis da tabela verdade
+      print(se_entao(True, True))   # Deve retornar True
+      print(se_entao(True, False))  # Deve retornar False
+      print(se_entao(False, True))  # Deve retornar True
+      print(se_entao(False, False)) # Deve retornar True
+   ```
+
+   * Representação em código do **se somente se**
+   ```python
+   def se_somente_se(A, B):
+       return A == B
+
+   # Testando a função com todos os valores possíveis da tabela verdade
+   print(se_somente_se(True, True))   # Deve retornar True
+   print(se_somente_se(True, False))  # Deve retornar False
+   print(se_somente_se(False, True))  # Deve retornar False
+   print(se_somente_se(False, False)) # Deve retornar True
+   ```
+
+
+
+
 
