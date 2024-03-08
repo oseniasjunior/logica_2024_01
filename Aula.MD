@@ -38,14 +38,24 @@
 
 ## Aula 02
 
-**7. Operadores**
+**7. Indrodução a computação**
+
+   * História da computação
+   * Princípios básicos de hardware, Softwares e sistemas operacionais
+   * Algoritmos e lógica de programação
+   * Linguagens de programação (Compiladores e interpretadores)
+   * Redes de computadores e internet
+   * Banco de dados
+   * IA e o impacto social da computação
+
+**8. Operadores**
 
    * Operadores relacionais ou de comparações
       * (>, <, >=, <=, ==, !=)
    * Operadores lógicos e (AND), ou (OR), (NOT)
    * Operadores matemáticos (*, /, -, +)
 
-**10. Tabela verdade**
+**9. Tabela verdade**
 
    ![Alt ou título da imagem](/images/tabelaVerdade01.png)
 
@@ -98,6 +108,8 @@
    print(se_somente_se(False, True))  # Deve retornar False
    print(se_somente_se(False, False)) # Deve retornar True
    ```
+**10. Estrutura de decisão**
+
 
 
 
