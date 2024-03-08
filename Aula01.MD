@@ -1,4 +1,4 @@
-# Algoritimo
+# Aula 01
 
 1. Conceito;
     * Receita com passo a passo de como um resolver um problema, como por exemplo quais os
@@ -14,12 +14,18 @@
    * Definem os tipos de dados que podem ser atribuídos as suas variáveis;
    * Tipos primitivos: inteiro, real, literal (cadeia no Portugol) e lógico;
 4. Portugol WebStudio (Playground);
-   *
+   * Versão Online: https://dgadelha.github.io/Portugol-Webstudio/
+   * Downlaod da ferramenta: https://univali-lite.github.io/Portugol-Studio/
    * Ferramenta que vai nos ajudar a praticar a programação com o uso de pseudo-linguagem;
 5. Exercício: Algoritmo para somar A e B;
 6. Comandos de leitura e escreta (escreva leia);
    * Ler o valor de uma variável usamos o leia(variavel)
    * Exibir uma mensagem na tela ou o valor de uma variável usamos o escreva; escreva("Olá mundo")
    * Mensagens com conteúdo literal precisam ser informadas dentro de ""
-
+7. Operadores
+   * Operadores relacionais ou de comparações
+      * (>, <, >=, <=, ==, !=)
+   * Operadores lógicos e (AND), ou (OR), (NOT)
+   * Operadores matemáticos (*, /, -, +)
+8.
 
