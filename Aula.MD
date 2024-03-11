@@ -16,7 +16,7 @@
      ~~~
      ~~~python
          nome_pessoa = "Osenias Oliveira"
-     ~~~
+     ~
 
 **3. Tipos de dados**
 
