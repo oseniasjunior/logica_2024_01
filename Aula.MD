@@ -108,10 +108,59 @@
    print(se_somente_se(False, True))  # Deve retornar False
    print(se_somente_se(False, False)) # Deve retornar True
    ```
+## Aula 03
+
 **10. Estrutura de decisão**
+   * Estruturas de decisão são fundamentais na programação, permitindo que um programa execute diferentes blocos de código com base em condições específicas. Duas das estruturas de decisão mais comuns são o "Se" (If) e o "Escolha" (Switch).
 
+   * **Estrutura de Decisão "Se" (If):**
+      A estrutura "Se" avalia uma condição: se essa condição for verdadeira, um bloco de código é executado; caso contrário, o programa pode executar outro bloco de código definido na cláusula "Senão" (Else). É útil para testar uma condição simples ou uma série de condições encadeadas com "Senão se" (Else If).
+      ```portugol
+      programa
+      {
+          funcao inicio()
+          {
+              inteiro idade = 18
 
+              se (idade >= 18)
+              {
+                  escreva("Você é maior de idade!\n")
+              }
+              senao
+              {
+                  escreva("Você é menor de idade!\n")
+              }
+          }
+      }
+      ```
 
+   * **Estrutura de Decisão "Escolha" (Switch):**
+      A estrutura "Escolha" é usada para selecionar um dos muitos blocos de código a ser executado com base no valor de uma variável. É especialmente útil quando se tem várias condições que dependem do mesmo valor. O "Escolha" avalia uma variável e executa o bloco de código correspondente ao valor da variável, terminando com um "Caso contrário" (Default) para cobrir os casos que não correspondem a nenhum valor listado.
+      ```portugol
+      programa
+      {
+          funcao inicio()
+          {
+              inteiro dia = 3
+
+              escolha (dia)
+              {
+                  caso 1:
+                      escreva("Domingo\n")
+                      pare
+                  caso 2:
+                      escreva("Segunda-feira\n")
+                      pare
+                  caso 3:
+                      escreva("Terça-feira\n")
+                      pare
+                  // Pode-se adicionar mais casos aqui
+                  caso contrario:
+                      escreva("Dia inválido\n")
+              }
+          }
+      }
+      ```
 
 
 
