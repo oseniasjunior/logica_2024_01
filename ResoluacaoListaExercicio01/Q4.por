@@ -5,6 +5,7 @@ programa {
     real numero2
     real resultado
     caracter operador
+    logico erroDividendo = falso
 
     escreva("Digite o número 1: ")
     leia(numero1)
@@ -25,6 +26,7 @@ programa {
         se(nao numero2 == 0){
           resultado = numero1 / numero2
         }senao{
+          erroDividendo = verdadeiro
           escreva("\nO dividendo não pode ser 0.")
         }
       pare
@@ -45,7 +47,9 @@ programa {
         escreva("\nOperador inválido.")
     }
 
-    escreva(numero1, operador, numero2, "=", resultado)
+    se(nao erroDividendo){
+      escreva(numero1, operador, numero2, "=", resultado)
+    }
 
   }
 }
