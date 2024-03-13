@@ -162,5 +162,15 @@
       }
       ```
 
+## Aula 04
+   * Boas práticas de programação;
+      * É de extrama importancia manter o código identado;
+   * Código limpo (clean code);
+      * É importante avaliar se seu código pode ser melhorado;
+      * Refatorar código: Ajustar algo já pronto com o intuito de melhorar legibilidade, performance, entre outros;
+      * Refatorar é preciso;
+   * Criar variáveis com nomes amigáveis;
+   * Resolução lista de exercícios 01. Da questão 01 até a 04;
+
 
 
