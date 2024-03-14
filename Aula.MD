@@ -54,6 +54,7 @@
       * (>, <, >=, <=, ==, !=)
    * Operadores lógicos e (AND), ou (OR), (NOT)
    * Operadores matemáticos (*, /, -, +)
+   * % retorna o resto da divisão: 10 % 2, nesse caso vai retornar 0 
 
 **9. Tabela verdade**
 
