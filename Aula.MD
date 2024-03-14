@@ -6,6 +6,7 @@
    * Receita com passo a passo de como um resolver um problema, como por exemplo quais os passos a serem executados para assistir um filme no netflix;
 
 **2. Variáveis**
+   * A variável de memória associa um nome (x ou y, neste caso) a um local na memória ram em que vai ser armazenado um valor.
    * Armazenar dados de entrada ou expressões dentro do programa;
    * As os valores das variáveis são armazenados em memória, em um endereço de memória;
    * Os valores são acessados pelo programa a partir das variáveis;
@@ -17,6 +18,7 @@
      ~~~python
          nome_pessoa = "Osenias Oliveira"
      
+   ![Alt ou título da imagem](/images/variaveis.jpg)
 
 **3. Tipos de dados**
 
