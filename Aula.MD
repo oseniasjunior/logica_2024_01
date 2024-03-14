@@ -174,4 +174,24 @@
 
 
 ## Aula 05
+   ### Fluxograma
+   * Um fluxograma é uma representação gráfica dos passos de um processo ou sistema. Ele utiliza diferentes símbolos para representar os tipos de ações ou passos envolvidos, bem como setas para indicar o fluxo e a sequência dessas ações. Fluxogramas são amplamente utilizados em diversas áreas, como programação, gestão de negócios, engenharia e educação, para planejar, documentar, analisar ou melhorar processos.
+
+
+   ### Componentes
+
+
+   * **Retângulos:** Usados para representar etapas do processo ou instruções de ação.
+   * **Losangos:** Indicam pontos de decisão, onde sim ou não, verdadeiro ou falso, são escolhas que determinam o próximo passo.
+   * **Linhas e Setas:** Mostram a direção e a sequência do fluxo do processo.
+   * **Círculos ou Elipses:** Frequentemente usados para indicar o início, fim ou um ciclo dentro do processo.
+   * **Paralelogramos:** Representam entradas e saídas, como dados a serem fornecidos ou resultados esperados do processo.
+
+   * #### Vamos utilizar a ferramenta Miro para fazer nossos Fluxogramas: https://miro.com/
+
+   ![Alt ou título da imagem](/images/FluxoGrama01.png)
+
+   * #### Algoritmo para saber se um número é ímpar ou par.
+
+   ![Alt ou título da imagem](/images/FluxoGrama02.png)
 
