@@ -198,3 +198,58 @@
 
    ![Alt ou título da imagem](/images/FluxoGrama02.png)
 
+## Aula 06
+   ### Estrutura de repetição
+   * Estruturas de repetição são fundamentais em programação, permitindo que um bloco de código seja executado repetidamente sob determinadas condições. No Portugol, uma linguagem educacional desenhada para facilitar o aprendizado de programação por falantes da língua portuguesa, essas estruturas são bastante semelhantes às encontradas em outras linguagens de programação, como Python, Java e C.
+   #### Para (Loop For)
+   * A estrutura para é utilizada quando se sabe previamente o número de vezes que o loop deve ser executado. Ela é ideal para iterar sobre sequências numéricas ou arrays.
+
+   ```portugol
+   para(variavel = valor_inicial; condicao_de_continuacao; incremento) {
+      // Código a ser repetido
+   }
+   ```
+
+   ```portugol
+   para(i = 0; i < 10; i++) {
+      escreva(i + " ");
+   }
+   ```
+
+   #### Enquanto (Loop While)
+   * A estrutura enquanto é usada para repetir um bloco de código enquanto uma condição for verdadeira. É útil quando o número de iterações não é conhecido antes do início do loop.
+
+   ```portugol
+      enquanto(condicao) {
+         // Código a ser repetido
+      }
+   ```
+
+   ```portugol
+      inteiro n = 0;
+      enquanto(n < 5) {
+          escreva(n + " ");
+          n++;
+      }
+   ```
+
+   #### Faça-Enquanto (Loop Do-While)
+   * O loop faca-enquanto é semelhante ao enquanto, mas com a diferença crucial de que o código dentro do loop é garantido para ser executado pelo menos uma vez, pois a condição é verificada após a execução do bloco de código.
+
+   ```portuol
+   faca {
+       // Código a ser repetido
+   } enquanto(condicao);
+   ```
+
+   ```portugol
+   inteiro n = 0;
+   faca {
+       escreva(n + " ");
+       n++;
+   } enquanto(n < 5);
+   ```
+
+   #### Dicas Importantes
+   * **Controle de Loop:** Em todas as estruturas de repetição, é vital garantir que a condição de parada seja alcançável. Loops infinitos podem causar o travamento do programa.
+   * **Variável de Controle:** Especialmente no loop para, é comum utilizar uma variável de controle (como i no exemplo) para iterar sobre os elementos. Certifique-se de que essa variável seja manipulada corretamente para evitar loops infinitos ou execuções de loop incorretas.
