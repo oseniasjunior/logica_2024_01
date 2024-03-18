@@ -1,5 +1,5 @@
 # Lógica de Programação
-## Lista de Exercícios 01
+## Lista de Exercícios 02
 
 * **Questão 1:** Tabuada
     * **Descrição:** Crie um algoritmo em Portugol que leia um número inteiro do usuário e exiba a tabuada desse número, de 1 até 10. Por exemplo, se o usuário inserir o número 5, o programa deve imprimir a tabuada de 5.
