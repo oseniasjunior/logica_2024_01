@@ -6,3 +6,9 @@
 
 * **Questão 2:** Sequência Fibonacci
     * **Descrição:** Implemente um programa em Portugol que gere e exiba os primeiros N números da sequência de Fibonacci, onde N é um número fornecido pelo usuário. A sequência de Fibonacci começa com 0 e 1, e cada número subsequente é a soma dos dois números anteriores.
+
+* **Questão 3:** Triângulo
+    * **Descrição:** Criar um algoritmo para criar um triângulo retângulo
+
+* **Questão 4:** Quadrado
+    * **Descrição:** Criar um algoritmo para criar um quadrado
