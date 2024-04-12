@@ -2,7 +2,9 @@ package main
 
 import (
 	"Agenda/util"
+	"bufio"
 	"fmt"
+	"os"
 )
 
 func main() {
@@ -27,29 +29,31 @@ func main() {
 
 			break
 
-		case 2:
-			var nome string
+			case 2:
+				var nome string
 
-			fmt.Println("Digite o nome do contato para remover: ")
-			fmt.Scan(&nome)
+				fmt.Println("Digite o nome do contato para remover: ")
+				fmt.Scan(&nome)
 
-			util.RemoverContato(nome)
-			break
+				util.RemoverContato(nome)
+				break
 
-		case 3:
-			var nome string
+				case 3:
+					var nome string
+					fmt.Println("Nome do contato para duplicar: ")
 
-			fmt.Println("Nome do contato para duplicar: ")
-			fmt.Scanf("%[^\\n]", &nome)
+					scanner := bufio.NewScanner(os.Stdin)
+					scanner.Scan()
+					nome = scanner.Text()
 
-			util.DuplicarContato(nome)
-			break
+					util.DuplicarContato(nome)
+					break
 
-		case 4:
+					case 4:
 
-			util.ListarContatos()
+						util.ListarContatos()
 
-			break
+						break
 
 		}
 
