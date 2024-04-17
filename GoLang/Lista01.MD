@@ -21,3 +21,20 @@ Desenvolva um loop interativo onde o usuário pode escolher adicionar um novo pr
 Utilize um slice de Tarefa para armazenar as tarefas.
 Implemente funções para adicionar uma nova tarefa, marcar uma tarefa como concluída, e listar todas as tarefas (destacando as que estão concluídas).
 Use um loop para oferecer ao usuário opções para adicionar uma tarefa, concluir uma tarefa, registrar um período de trabalho da tarefa ou listar todas as tarefas.
+
+
+**Crie um sistema de votação simples**
+-------------------------------------------------------
+- Crie um struct para armazenar os dados de um candidato
+- Crie um struct para armazenar os dados de um eleitor
+- Crie um struct para armazenar os dados de um voto, qual foi o candidato, eleitor
+
+- Os candidatos devem ser pré-cadastrados
+    MARIA 10
+    JOÃO 20
+
+- O menu deve ter as seguintes opções
+    - Votar em um candidato; (O eletiror deve informar seus dados e o número do candidato)
+    - Apuração parcial %
+    - Conferência de votos
+    - Encerrar votação
